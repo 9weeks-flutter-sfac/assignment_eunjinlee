@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d51960f-174e-4bed-9ff1-cad1a4e4d150" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assignment_eunjinlee.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/vscode-git-graph.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_2/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/day_2/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/.dart_tool/package_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/.dart_tool/package_config_subset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/.dart_tool/version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/lib/api/api.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/lib/api/api_routes.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/lib/model/author.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/lib/model/secret.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/lib/secret_cat_sdk.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/test/secret_cat_sdk_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/day_10/lib/pages/author_page.dart" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +34,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/moky2/Desktop/플러터 과제/assignment_eunjinlee&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;flutter.settings&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
