@@ -48,7 +48,7 @@ class MusicTile extends StatelessWidget {
         
           ],
           ),
-            
+            trailing: Icon(Icons.more_vert),
             ),
           ]
     );
