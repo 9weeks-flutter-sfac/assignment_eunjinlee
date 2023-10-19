@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/pages/author_page.dart';
-import 'package:flutter_application_2/pages/secret_page.dart';
-import 'package:flutter_application_2/pages/upload_page.dart';
+import 'package:day_10/controller/author_page.dart';
+import 'package:day_10/controller/secret_page.dart';
+
+
+
+void main() {
+  runApp(const MainPage());
+}
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -35,7 +40,7 @@ class MainPage extends StatelessWidget {
               Navigator.push(
               context, 
               MaterialPageRoute(
-              builder: (context) => AuthorPage()
+              builder: (context) =>AuthorPage()
               ),
               );
             },
