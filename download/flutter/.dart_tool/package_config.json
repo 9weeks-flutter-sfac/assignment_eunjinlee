@@ -98,6 +98,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "secret_cat_sdk",
+      "rootUri": "file:///C:/Users/moky2/AppData/Local/Pub/Cache/hosted/pub.dev/secret_cat_sdk-0.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///D:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -158,13 +164,13 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "secret_cat_sdk",
+      "name": "day_10",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-10-10T16:29:35.378354Z",
+  "generated": "2023-10-19T17:01:04.092899Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }

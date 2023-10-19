@@ -1,4 +1,4 @@
-name: secret_cat_sdk
+name: day_10
 description: Secret Cat SDK
 version: 0.0.6
 homepage: https://sniperfactory.com
@@ -11,6 +11,7 @@ dependencies:
   dio: ^4.0.6
   flutter:
     sdk: flutter
+  secret_cat_sdk: ^0.0.6  
 
 dev_dependencies:
   flutter_lints: ^2.0.0
