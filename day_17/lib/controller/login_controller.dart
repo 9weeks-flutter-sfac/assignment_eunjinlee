@@ -6,6 +6,7 @@ class LoginController extends GetxController{
   var idController = TextEditingController();
   var pwController = TextEditingController();
 
+
   login()async{
     Get.find<AuthController>().login(idController.text, pwController.text);
   }

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
-import 'package:get/get_rx/src/rx_typedefs/rx_typedefs.dart';
+
 
 class AppController extends GetxController{
 RxInt coin = RxInt(0);

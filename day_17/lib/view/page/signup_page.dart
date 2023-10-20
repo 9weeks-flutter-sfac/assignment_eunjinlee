@@ -1,9 +1,10 @@
+
 import 'package:day_17/controller/signup_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class SignupPage extends GetView<SignupController>{
-  const SignupPage({super.key});
+class SignUpPage extends GetView<SignUpController>{
+  const SignUpPage({super.key});
   static const route = '/signup';
   
   @override
@@ -16,8 +17,9 @@ class SignupPage extends GetView<SignupController>{
         TextField(controller: controller.usernameController,),
         TextField(controller: controller.pwController,),
         TextField(controller: controller.pw2Controller,),
-        ElevatedButton(onPressed: controller.signup, 
-        child: Text('시작하기')
+
+        ElevatedButton(onPressed: controller.SignUp(), 
+        child: const Text('시작하기')
         
       
     ),

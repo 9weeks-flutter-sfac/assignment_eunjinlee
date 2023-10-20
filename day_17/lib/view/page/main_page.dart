@@ -11,27 +11,41 @@ class MainPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
    return Scaffold(
-    body: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        const Text('비밀듣는 고양이'),
-        ListTile(title:const Text('비밀보기'),
-        onTap: () => Get.toNamed(SecretPage.route),
+    body: Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage('assets/images/back.jpg'),
+          fit: BoxFit.cover,
         ),
+      ),
+        child: Center(
+        child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Text('말해줘 사실을 말해줘~',style: TextStyle(color: Color.fromARGB(255, 43, 22, 76),fontSize: 34),
+          ),
+          ListTile(title:const Text('비밀보기',style: TextStyle(color: Color.fromARGB(255, 43, 22, 76),fontSize: 20),
+          ),
+          onTap: () => Get.toNamed(SecretPage.route),
+          ),
+          
+          ListTile(
+            title: const Text('비밀올리기',style: TextStyle(color: Color.fromARGB(255, 43, 22, 76),fontSize: 20),
+          ),
+            onTap: () => Get.toNamed(UploadPage.route
+          ),),
+           ListTile(
+            title: const Text('앱설정',style: TextStyle(color: Color.fromARGB(255, 43, 22, 76),fontSize: 20),
+          ),
+            onTap: () => Get.toNamed(SettingPage.route),
+           ),
         
-        ListTile(
-          title: const Text('비밀올리기'),
-          onTap: () => Get.toNamed(UploadPage.route),
-        ),
-         ListTile(
-          title: const Text('앱설정'),
-          onTap: () => Get.toNamed(SettingPage.route),
-         ),
+        ],
+          ),
+    ),
       
-      ],
-        ),
-      
-    );
+    ),
+   );
   
   
   }

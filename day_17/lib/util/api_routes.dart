@@ -1,6 +1,6 @@
 class ApiRoutes{
    static String login = 
-  'http://42.79.115.43:8090/api/collections/users/auth-with-password';
+  'http://52.79.115.43:8090/api/collections/users/auth-with-password';
    static String signup = 
   'http://52.79.115.43:8090/api/collections/users/records';
    static String secret =
