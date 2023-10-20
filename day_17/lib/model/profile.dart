@@ -9,7 +9,7 @@ class Profile {
   Profile({
     required this.username,
     required this.email,
-    required this.name,
+    required this.name, required id,
   });
 
   Map<String, dynamic> toMap() {
@@ -24,7 +24,7 @@ class Profile {
     return Profile(
       username: map['username'] as String,
       email: map['email'] ,
-      name: map['name'] as String,
+      name: map['name'] as String, id: null,
     );
   }
 

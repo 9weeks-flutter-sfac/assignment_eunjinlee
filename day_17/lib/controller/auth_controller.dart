@@ -46,15 +46,24 @@ class AuthController extends GetxController {
       });
 
       if (response.statusCode == 200) {
-        // Handle signup success
-        // You may want to navigate to the main page or show a success message.
-      } else {
-        // Handle signup error
-        // You can extract error information from the response and show an error message.
-      }
+          Get.snackbar('가입 성공', '가입이 성공적으로 완료되었습니다.',
+          snackPosition: SnackPosition.BOTTOM,
+          duration: const Duration(milliseconds: 3000),
+          backgroundColor: Colors.green,
+          colorText: Colors.white);
+    } else {
+      
+      Get.snackbar('가입 실패', '가입 중 오류가 발생했습니다.',
+          snackPosition: SnackPosition.BOTTOM,
+          duration: const Duration(milliseconds: 3000),
+          backgroundColor: Colors.red,
+          colorText: Colors.white);
+      } 
+        
+    
     } catch (e) {
       print(e);
-      // Handle other errors, such as network issues
+    
     }
   }
 
